@@ -1,0 +1,102 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 26px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: tomato;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+
+.home{
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 40%;
+}
+
+.home img{
+    width: 90%;
+}
+
+.second img {
+    width: 90%;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(0, 47, 255), rgb(12, 240, 210));
+}
+
+.first-s{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.third .heading{
+ text-align: center;
+ padding-bottom: 2%;
+ text-decoration: underline;
+}
+
+.expe{
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 15px 10px 30px black;
+    border-radius: 5px;
+    padding: 0% 2%;
+    
+}
+
+.b-color1{
+    border-left: 8px solid;
+    border-image: linear-gradient(#137e05, rgb(31, 247, 182));
+    border-image-slice: 1;
+
+}
+
+.b-color2{
+    border-left: 8px solid;
+    border-image: linear-gradient(#0026ff, rgb(31, 247, 182));
+    border-image-slice: 1;
+
+}
+
+
+
+footer p{
+    text-align: center;
+}
