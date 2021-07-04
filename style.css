@@ -41,6 +41,8 @@ span{
 }
 
 .button {
+    font-weight: bold;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -99,4 +101,6 @@ span{
 
 footer p{
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
